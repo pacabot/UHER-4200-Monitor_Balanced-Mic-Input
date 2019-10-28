@@ -1,0 +1,21 @@
+Symetrisation des entrées micros Uher 4200 Report Monitor :
+
+Existant (carte 600):
+- Arrêt instantané par commande à distance: broches 6 et 7
+- Sur broche 8 de ces prises à fiches femelles est appliquée
+une tension positive qui sert à l'alimentation en courant directe
+de chaque microphone à condensateur-électrète à faible impé-
+dance (par exemple du microphone à condensateur-électrète
+UHER M 646), le magnétophone servant de source de courant
+- Broche 1 et 4 non utilisées
+- La broche 5 du Mic 1 sert à passer en mode stéréo
+
+
+Modification
+- Point chaud sur broche 3
+- Point froid sur broche 5
+
+
+Ajout Alimentation Fantome :
+- DC/DC TPS61040 ou TPS61170 (https://e2e.ti.com/support/power-management/f/196/t/357562?TPS61040-for-phantom-power-48v-and-variable-voltage)
+

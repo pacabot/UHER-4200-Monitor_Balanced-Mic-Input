@@ -1,0 +1,11 @@
+Tiré de la carte son ONYX 2.2
+
+DC/DC : XL6007E1
+
+Condensateur en entrée 4,7uF couplé à 1uF
+Bobine 470 (47uH)
+Diode marquage 1B
+Pont diviseur sur pin 3 FB : sortie diode 56K / 1.5K
+Condensateurs (x2) sortie diode : 63V 10uF electrolitique
+Bobine O603 en sortie, valeur inconue
+
