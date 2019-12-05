@@ -1,0 +1,93 @@
+* Z:\home\zhonx\Bureau\UHER\1200_MIC\Simulation_1200_MIC_Original\1200_MIC_modif.asc
+Q1 N004 N005 P001 0 BC547B
+R1 N006 N005 100 tol=1 pwr=0.1
+R2 P001 P002 330 tol=1 pwr=0.1
+R3 P002 0 7.5K tol=1 pwr=0.1
+C3 N004 IN1 4.7µ V=25 Irms=24m Rser=5 Lser=0 mfg="Nichicon" pn="UPR1E4R7MAH" type="Al electrolytic"
+R4 N001 N004 10K tol=1 pwr=0.1
+C4 N007 N016 220µ V=6.3 Irms=290m Rser=0.3 Lser=0 mfg="Panasonic" pn="ECA0JFQ221" type="Al electrolytic"
+R5 N001 N006 10K tol=1 pwr=0.1
+R6 N006 0 6.2K tol=1 pwr=0.1
+C5 N006 0 100p V=6.3 Irms=728m Rser=0.14361 Lser=0
+Q2 N003 N004 N007 0 BC547B
+Q3 N008 N003 N002 0 BC557B
+R7 N002 N003 15K tol=1 pwr=0.1
+R9 N002 N001 330 tol=1 pwr=0.1
+V1 N002 0 4.9
+C6 N002 0 4.7µ V=25 Irms=24m Rser=5 Lser=0 mfg="Nichicon" pn="UPR1E4R7MAH" type="Al electrolytic"
+R8 N008 N007 10K tol=1 pwr=0.1
+C7 N007 N004 0.0022µ V=6.3 Irms=56.2m Rser=1.80898 Lser=0 mfg="KEMET" pn="C0402C222K9RAC" type="X7R"
+C8 N008 N007 100p V=25 Irms=0 Rser=0 Lser=0 mfg="Murata" pn="GRM0335C1E101JA01" type="C0G"
+R10 N017 N016 100 tol=1 pwr=0.1
+R11 N017 0 9k
+R12 0 N009 10K
+R13 N009 P003 3.3K tol=1 pwr=0.1
+C9 N008 P003 47µ V=6.3 Irms=0 Rser=1.1 Lser=0 mfg="AVX" pn="TAJD476M006" type="Tantalum"
+R14 0 N009 1k
+R18 N013 N009 22K tol=1 pwr=0.1
+C10 N014 N013 1µ V=50 Irms=12m Rser=22 Lser=0 mfg="Nichicon" pn="UPR1H010MAH" type="Al electrolytic"
+Q4 N011 N014 N015 0 BC547B
+R19 N002 N010 68K tol=1 pwr=0.1
+R20 N010 0 100K tol=1 pwr=0.1
+C11 N010 N015 4.7µ V=25 Irms=24m Rser=5 Lser=0 mfg="Nichicon" pn="UPR1E4R7MAH" type="Al electrolytic"
+C12 N015 OUT1 4.7µ V=25 Irms=24m Rser=5 Lser=0 mfg="Nichicon" pn="UPR1E4R7MAH" type="Al electrolytic"
+R21 N014 N010 100K tol=1 pwr=0.1
+R22 N002 N011 1K tol=1 pwr=0.1
+R23 N015 0 8.2K tol=1 pwr=0.1
+V2 MIC1 0 SINE(0 20m 1K)
+C13 N001 0 220µ V=6.3 Irms=290m Rser=0.3 Lser=0 mfg="Panasonic" pn="ECA0JFQ221" type="Al electrolytic"
+R16 N008 0 2.7K tol=1 pwr=0.1
+V3 IN1 0 SINE(0 100m 1K)
+Q5 N022 N023 P004 0 BC547B
+R17 N024 N023 100 tol=1 pwr=0.1
+C14 N023 N028 0.0047µ V=25 Irms=192m Rser=1.19094 Lser=0 mfg="KEMET" pn="C0402C472K3RAC" type="X7R"
+R24 P004 N028 330 tol=1 pwr=0.1
+R25 N028 0 7.5K tol=1 pwr=0.1
+C15 N028 NC_01 100µ V=6.3 Irms=175m Rser=0.65 Lser=0 mfg="Panasonic" pn="ECA0JFQ101" type="Al electrolytic"
+C16 N022 IN2 4.7µ V=25 Irms=24m Rser=5 Lser=0 mfg="Nichicon" pn="UPR1E4R7MAH" type="Al electrolytic"
+R26 N020 N022 10K tol=1 pwr=0.1
+C17 N025 N035 220µ V=6.3 Irms=290m Rser=0.3 Lser=0 mfg="Panasonic" pn="ECA0JFQ221" type="Al electrolytic"
+R27 N020 N024 10K tol=1 pwr=0.1
+R28 N024 0 6.2K tol=1 pwr=0.1
+C18 N024 0 100p V=6.3 Irms=728m Rser=0.14361 Lser=0
+Q6 N021 N022 N025 0 BC547B
+Q7 N026 N021 N019 0 BC557B
+R29 N019 N021 15K tol=1 pwr=0.1
+R30 N019 N020 330 tol=1 pwr=0.1
+V4 N019 0 4.9
+C19 N019 0 4.7µ V=25 Irms=24m Rser=5 Lser=0 mfg="Nichicon" pn="UPR1E4R7MAH" type="Al electrolytic"
+R31 N026 N025 10K tol=1 pwr=0.1
+C20 N025 N022 0.0022µ V=6.3 Irms=56.2m Rser=1.80898 Lser=0 mfg="KEMET" pn="C0402C222K9RAC" type="X7R"
+C21 N026 N025 100p V=25 Irms=0 Rser=0 Lser=0 mfg="Murata" pn="GRM0335C1E101JA01" type="C0G"
+R32 N036 N035 100 tol=1 pwr=0.1
+R33 N036 0 7k
+R34 0 N027 10k
+R35 N027 P005 3.3K tol=1 pwr=0.1
+C22 N026 P005 47µ V=6.3 Irms=0 Rser=1.1 Lser=0 mfg="AVX" pn="TAJD476M006" type="Tantalum"
+R36 0 N027 3k
+R38 N032 N027 22K tol=1 pwr=0.1
+C23 N033 N032 1µ V=50 Irms=12m Rser=22 Lser=0 mfg="Nichicon" pn="UPR1H010MAH" type="Al electrolytic"
+Q8 N030 N033 N034 0 BC547B
+R39 N019 N029 68K tol=1 pwr=0.1
+R40 N029 0 100K tol=1 pwr=0.1
+C24 N029 N034 4.7µ V=25 Irms=24m Rser=5 Lser=0 mfg="Nichicon" pn="UPR1E4R7MAH" type="Al electrolytic"
+C25 N034 OUT2 4.7µ V=25 Irms=24m Rser=5 Lser=0 mfg="Nichicon" pn="UPR1E4R7MAH" type="Al electrolytic"
+R41 N033 N029 100K tol=1 pwr=0.1
+R42 N019 N030 1K tol=1 pwr=0.1
+R43 N034 0 8.2K tol=1 pwr=0.1
+V5 MIC2 0 SINE(0 1m 2K)
+C26 N020 0 220µ V=6.3 Irms=290m Rser=0.3 Lser=0 mfg="Panasonic" pn="ECA0JFQ221" type="Al electrolytic"
+R44 N026 0 2.7K tol=1 pwr=0.1
+V6 IN2 0 SINE(0 447m 1K)
+J2 N013 N018 N032 J176
+R45 N019 N018 1Meg tol=1 pwr=0.1
+R46 OUT1 0 10k
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\zhonx\Mes documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NJF NJF
+.model PJF PJF
+.lib C:\users\zhonx\Mes documents\LTspiceXVII\lib\cmp\standard.jft
+.tran 1000m
+.backanno
+.end

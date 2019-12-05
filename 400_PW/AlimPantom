@@ -9,3 +9,41 @@ Pont diviseur sur pin 3 FB : sortie diode 56K / 1.5K
 Condensateurs (x2) sortie diode : 63V 10uF electrolitique
 Bobine O603 en sortie, valeur inconue
 
+
+Définition des nouveaux connecteurs d'alimentation spicospox :
+Carte 1300 : Commande électronique
+    - 7.5
+    - 4.9
+    - Out 4.9 REC
+Carte 900 : Etage final :
+    - 7.5
+Carte 1200 : Preamp MIC
+    - 4,9 REC
+    - (à venir -4,9V)
+Carte 800 : Sélecteur d'opération :
+    - 4,9
+Carte 600 : Prises :
+    - 4,9
+Carte 300 : Commande moteur :
+    - 7,5
+Carte 1-199 : Carte mère :
+    - 4,9
+    - 7,5
+    - Vu-mètre
+    - 4,9 REC
+
+Branchements volatiles :
+Solénoide :
+    - 7.5
+K3 MONITOR / K4 START / K2 REC
+    - 4,9
+K5 / K6
+    - 4,9
+
+
+
+
+
+
+
+Carte 400 : Carte alimentation : 

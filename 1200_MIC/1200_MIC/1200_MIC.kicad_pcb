@@ -1,0 +1,13 @@
+(kicad_pcb (version 4) (host kicad "dummy file") 
+  (gr_line (start 203.480 68.170) (end 203.480 111.170) (angle 90) (layer Edge.Cuts) (width 0.16))
+  (gr_line (start 203.480 111.170) (end 93.480 111.170) (angle 90) (layer Edge.Cuts) (width 0.16))
+  (gr_line (start 93.480 111.170) (end 93.480 68.170) (angle 90) (layer Edge.Cuts) (width 0.16))
+  (gr_line (start 131.000 68.170) (end 131.000 75.670) (angle 90) (layer Edge.Cuts) (width 0.16))
+  (gr_line (start 131.000 75.670) (end 138.500 83.170) (angle 90) (layer Edge.Cuts) (width 0.16))
+  (gr_line (start 138.500 83.170) (end 158.500 83.170) (angle 90) (layer Edge.Cuts) (width 0.16))
+  (gr_line (start 158.500 83.170) (end 166.000 75.670) (angle 90) (layer Edge.Cuts) (width 0.16))
+  (gr_line (start 166.000 75.670) (end 166.000 68.170) (angle 90) (layer Edge.Cuts) (width 0.16))
+  (gr_line (start 93.480 68.170) (end 131.000 68.170) (angle 90) (layer Edge.Cuts) (width 0.16))
+  (gr_line (start 166.000 68.170) (end 203.480 68.170) (angle 90) (layer Edge.Cuts) (width 0.16))
+)
+ 
