@@ -1,4 +1,4 @@
-17193578694674038
+17198309379918038
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -45240,6 +45240,13 @@ Molex StepUp generated footprint
 0
 18
 15
+DVB_Connectors
+stamped_contact_2.8mm
+
+
+0
+1
+1
 DVB_DFN
 DFN-6-1EP_3x3mm_Pitch0.95mm
 DFN6 3*3 MM, 0.95 PITCH; CASE 506AH-01 (see ON Semiconductor 506AH.PDF)
@@ -45814,6 +45821,20 @@ QFP 0.8
 0
 32
 32
+DVB_Resistors
+Potentiometer_Mono_Vertical
+Potentiometer, vertical, Omeg PC16BU, http://www.omeg.co.uk/pc6bubrc.htm
+Potentiometer vertical Omeg PC16BU
+0
+3
+3
+DVB_Resistors
+Potentiometer_Stereo_Vertical
+Potentiometer, vertical, Omeg PC16BU, http://www.omeg.co.uk/pc6bubrc.htm
+Potentiometer vertical Omeg PC16BU
+0
+6
+6
 DVB_Resistors
 R_0201
 Resistor SMD 0201, reflow soldering, Vishay (see crcw0201e3.pdf)

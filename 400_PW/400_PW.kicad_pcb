@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -17,16 +17,16 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (1 GND.Cu power)
-    (2 POWER.Cu power)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (1 GND.Cu power hide)
+    (2 POWER.Cu power hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user hide)
     (35 F.Paste user)
     (36 B.SilkS user hide)
-    (37 F.SilkS user)
+    (37 F.SilkS user hide)
     (38 B.Mask user)
     (39 F.Mask user hide)
     (40 Dwgs.User user)
@@ -4237,7 +4237,7 @@
   (gr_text "Verifier :\n- La masse au GND\n- L'écartement des vis ainsi que le diamètre\n- Le passage des composants sous le PCB\n- Les propriètés du cnnecteur batterie\n- Simuler le comportement du vu-mètre" (at 137.97 114.305) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "POWER\n-400-\nv1.0.0\nPLF\n2019" (at 173.67 116.405) (layer B.Mask)
+  (gr_text "POWER\n-400-\nv1.0.0\nPLF\n2020" (at 173.67 116.405) (layer B.Mask)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text VU (at 182.37 136.33 270) (layer B.Mask) (tstamp 5DBE4832)
