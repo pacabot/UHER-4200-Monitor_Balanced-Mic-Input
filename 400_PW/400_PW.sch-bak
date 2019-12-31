@@ -2615,7 +2615,7 @@ U 1 1 5E365F9D
 P 8675 4450
 F 0 "RV1" V 8560 4450 50  0000 C CNN
 F 1 "25K" V 8469 4450 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical_Hole" H 8675 4450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical_Hole" H 8675 4450 50  0001 C CNN
 F 3 "PT10LV10-253A2020-PM-S" H 8675 4450 50  0001 C CNN
 	1    8675 4450
 	0    -1   -1   0   

@@ -1,0 +1,2508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/zhonx/Bureau/UHER/400_PW/400_PW.sch</source>
+    <date>dim. 29 déc. 2019 18:42:47 CET</date>
+    <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>400_PW</title>
+        <company/>
+        <rev>1.0.0</rev>
+        <date>2019-10-27</date>
+        <source>400_PW.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C16">
+      <value>C_0037</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0037" description="DVB_Capacitors_Ceramic:C_0603, CER, 1µF, 25V, X5R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1D8BC</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0002" description="DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1D8AE</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L_0001</value>
+      <footprint>DVB_Inductors:L_0805</footprint>
+      <datasheet>http://www.farnell.com/datasheets/84904.pdf?_ga=2.13460403.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field1">MPZ2012S101A</field>
+        <field name="Field2">L-0805</field>
+        <field name="Field3">TDK</field>
+        <field name="Field4">100ohm 1Mhz</field>
+        <field name="Field5">4A</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0001" description="DVB_Inductors:L_0805, MPZ2012S101A, 4A, CHIP BEADS, 100ohm to 1Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BCBC89</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595BDA47</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595BD958</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>L_0004</value>
+      <footprint>DVB_Inductors:L_2020-Vishay</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2050374.pdf?_ga=2.106835719.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field1">IHLP2020BZER4R7M01</field>
+        <field name="Field2">L-2020</field>
+        <field name="Field3">Vishay</field>
+        <field name="Field4">4.7uH</field>
+        <field name="Field5">5A</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0004" description="DVB_Inductors:L_2020-Vishay, IHLP2020BZER4R7M01, 5A, COIL, 4.7µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595B64D5</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>C_0039</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">16V</field>
+        <field name="Field4">C0G/NP0</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0039" description="DVB_Capacitors_Ceramic:C_0402, CER, 10pF, 16V, COG/NPO, 5%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595ECEDB</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>C_0012</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">220nF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0012" description="DVB_Capacitors_Ceramic:C_0603, CER, 220nF, 25V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595DD686</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0002" description="DVB_Resistors:R_0402, 1M, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D36B9</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>C_0037</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0037" description="DVB_Capacitors_Ceramic:C_0603, CER, 1µF, 25V, X5R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595BAF26</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0002" description="DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595BAE37</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C_0032</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0805</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">2.2uF</field>
+        <field name="Field2">C-0805</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0032" description="DVB_Capacitors_Ceramic:C_0805, CER, 2.2µF, 50V, X5R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595B1FA8</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C_0038</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1206</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-1206</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0038" description="DVB_Capacitors_Ceramic:C_1206, CER, 4.7µF, 50V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595ADDAA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_0038</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1206</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-1206</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0038" description="DVB_Capacitors_Ceramic:C_1206, CER, 4.7µF, 50V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595A7CCF</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1D91F</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1D911</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>C_0039</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">16V</field>
+        <field name="Field4">C0G/NP0</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0039" description="DVB_Capacitors_Ceramic:C_0402, CER, 10pF, 16V, COG/NPO, 5%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1D8F4</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>C_0012</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">220nF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0012" description="DVB_Capacitors_Ceramic:C_0603, CER, 220nF, 25V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1D8E6</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0002" description="DVB_Resistors:R_0402, 1M, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1D8CA</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>C_0041</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1206</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">10µF</field>
+        <field name="Field6">50V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">20%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0041" description="DVB_Capacitors_Ceramic:C_1206, CER, 10µF, 50V, X5R, 20%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB0C36D</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>C_0057</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">680nF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0057" description="DVB_Capacitors_Ceramic:C_0603, CER, 680nF, 25V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1BC58</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>C_0056</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0805</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">1µF</field>
+        <field name="Field6">50V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0056" description="DVB_Capacitors_Ceramic:C_0805, CER, 1µF, 50V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB2E068</tstamp>
+    </comp>
+    <comp ref="L12">
+      <value>L_0004</value>
+      <footprint>DVB_Inductors:L_2020-Vishay</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2050374.pdf?_ga=2.106835719.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">IHLP2020BZER4R7M01</field>
+        <field name="Field5">5A</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">4.7µH</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0004" description="DVB_Inductors:L_2020-Vishay, IHLP2020BZER4R7M01, 5A, COIL, 4.7µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB2F15A</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R_0099</value>
+      <footprint>DVB_Resistors:R_1206</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">50m</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">1W</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0099" description="DVB_Resistors:R_1206, 50m, 1%, 1W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB31EB3</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>C_0003</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">10µF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0003" description="DVB_Capacitors_Ceramic:C_0603, CER, 10µF, 25V, X5R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB4654E</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_0026</value>
+      <footprint>DVB_Diodes:D_SMA</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2238505.pdf?_ga=2.105419331.173902947.1520845255-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">B360A</field>
+        <field name="Field5">3A</field>
+        <field name="Field6">SCHOTTKY</field>
+        <field name="Field7">1-Chan</field>
+        <field name="Field8">60Vr</field>
+      </fields>
+      <libsource lib="DVB_D" part="D_0026" description="DVB_Diodes:D_SMA, B360A-13-F, 3A, SCHOTTKY, 60Vr, 1-Chan"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCC08B4</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_0118</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">1.5k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">62.5mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0118" description="DVB_Resistors:R_0402, 1.5k, 1%, 62.5mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCC2E39</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>U_0126</value>
+      <footprint>DVB_SOIC:SOIC_8</footprint>
+      <datasheet>http://www.xlsemi.com/datasheet/XL6007%20datasheet.pdf</datasheet>
+      <fields>
+        <field name="Field4">XL6007E1</field>
+        <field name="Field5">REGULATOR</field>
+        <field name="Field6">DC/DC BOOST / EN</field>
+        <field name="Field7">3.6V to 24Vcc</field>
+        <field name="Field8">60Vout</field>
+        <field name="Field9">2A</field>
+      </fields>
+      <libsource lib="DVB_U" part="U_0126" description="DVB_SOIC:SOIC_8, XL6007E1, REGULATOR, DC/DC BOOST / EN, 3.6V to 24Vcc, 60Vout, 2A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCCB1FA</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>L_0015</value>
+      <footprint>DVB_Inductors:L_7050-Wurth</footprint>
+      <datasheet>https://katalog.we-online.fr/pbs/datasheet/74437349470.pdf</datasheet>
+      <fields>
+        <field name="Field4">74437349470</field>
+        <field name="Field5">2.45A</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">47µH</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0015" description="DVB_Inductors:L_7050-Wurth, 74437349470, 2.45A, COIL, 47µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCDA1A5</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_0154</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Field4">56k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0154" description="DVB_Resistors:R_0402, 56k, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCE11ED</tstamp>
+    </comp>
+    <comp ref="L11">
+      <value>L_0001</value>
+      <footprint>DVB_Inductors:L_0805</footprint>
+      <datasheet>http://www.farnell.com/datasheets/84904.pdf?_ga=2.13460403.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field1">MPZ2012S101A</field>
+        <field name="Field2">L-0805</field>
+        <field name="Field3">TDK</field>
+        <field name="Field4">100ohm 1Mhz</field>
+        <field name="Field5">4A</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0001" description="DVB_Inductors:L_0805, MPZ2012S101A, 4A, CHIP BEADS, 100ohm to 1Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCE617C</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>C_0038</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1206</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-1206</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0038" description="DVB_Capacitors_Ceramic:C_1206, CER, 4.7µF, 50V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCEB2A1</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>C_0032</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0805</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">2.2uF</field>
+        <field name="Field2">C-0805</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0032" description="DVB_Capacitors_Ceramic:C_0805, CER, 2.2µF, 50V, X5R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4CFE</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>C_0071</value>
+      <footprint>DVB_Capacitors_Ceramic:C_2220</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2237835.pdf</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">10µF</field>
+        <field name="Field6">100V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0071" description="DVB_Capacitors_Ceramic:C_2220, CER, 10µF, 100V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD03947</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>C_0071</value>
+      <footprint>DVB_Capacitors_Ceramic:C_2220</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2237835.pdf</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">10µF</field>
+        <field name="Field6">100V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0071" description="DVB_Capacitors_Ceramic:C_2220, CER, 10µF, 100V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD099A6</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_0026</value>
+      <footprint>DVB_Diodes:D_SMA</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2238505.pdf?_ga=2.105419331.173902947.1520845255-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">B360A</field>
+        <field name="Field5">3A</field>
+        <field name="Field6">SCHOTTKY</field>
+        <field name="Field7">1-Chan</field>
+        <field name="Field8">60Vr</field>
+      </fields>
+      <libsource lib="DVB_D" part="D_0026" description="DVB_Diodes:D_SMA, B360A-13-F, 3A, SCHOTTKY, 60Vr, 1-Chan"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD83FAB</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>U_0064</value>
+      <footprint>DVB_SSOP:MSOP_16-1EP_3x4_P0.5</footprint>
+      <datasheet>http://cds.linear.com/docs/en/datasheet/8610abfa.pdf</datasheet>
+      <fields>
+        <field name="Field1">LT8610ABHMSE</field>
+        <field name="Field10">200Khz to 2.2Mhz</field>
+        <field name="Field11">-40° to 150°</field>
+        <field name="Field2">MSOP_16-EP_3x4_P0.5</field>
+        <field name="Field3">Linear Technology</field>
+        <field name="Field4">REGULATOR</field>
+        <field name="Field5">DC/DC STEP DOWN / EN</field>
+        <field name="Field6">42Vin</field>
+        <field name="Field7">ADJ 0.97V to Vin</field>
+        <field name="Field8">3.5A</field>
+        <field name="Field9">2.5uA</field>
+      </fields>
+      <libsource lib="DVB_U" part="U_0064" description="DVB_SSOP:MSOP_16-1EP_3x4_P0.5, LT8610ABHMSE, REGULATOR, DC/DC BUCK STEP DOWN, 3.2V to 42Vcc, ADJ 970mV to 1Vout, 3.5A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDF0605</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>C_0037</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0037" description="DVB_Capacitors_Ceramic:C_0603, CER, 1µF, 25V, X5R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDF06EF</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0002" description="DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDF06FD</tstamp>
+    </comp>
+    <comp ref="L9">
+      <value>L_0004</value>
+      <footprint>DVB_Inductors:L_2020-Vishay</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2050374.pdf?_ga=2.106835719.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">IHLP2020BZER4R7M01</field>
+        <field name="Field5">5A</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">4.7µH</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0004" description="DVB_Inductors:L_2020-Vishay, IHLP2020BZER4R7M01, 5A, COIL, 4.7µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE20300</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_0156</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="Field4">52.3k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0156" description="DVB_Resistors:R_0402, 52.3k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE2D3C0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_0156</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="Field4">52.3k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0156" description="DVB_Resistors:R_0402, 52.3k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE30278</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_0156</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="Field4">52.3k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0156" description="DVB_Resistors:R_0402, 52.3k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE30AC3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_0155</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="Field4">249k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0155" description="DVB_Resistors:R_0402, 249k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE415D1</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_0155</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="Field4">249k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0155" description="DVB_Resistors:R_0402, 249k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE41A16</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE496B7</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE4A872</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE58631</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE58F71</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>U_0064</value>
+      <footprint>DVB_SSOP:MSOP_16-1EP_3x4_P0.5</footprint>
+      <datasheet>http://cds.linear.com/docs/en/datasheet/8610abfa.pdf</datasheet>
+      <fields>
+        <field name="Field1">LT8610ABHMSE</field>
+        <field name="Field10">200Khz to 2.2Mhz</field>
+        <field name="Field11">-40° to 150°</field>
+        <field name="Field2">MSOP_16-EP_3x4_P0.5</field>
+        <field name="Field3">Linear Technology</field>
+        <field name="Field4">REGULATOR</field>
+        <field name="Field5">DC/DC STEP DOWN / EN</field>
+        <field name="Field6">42Vin</field>
+        <field name="Field7">ADJ 0.97V to Vin</field>
+        <field name="Field8">3.5A</field>
+        <field name="Field9">2.5uA</field>
+      </fields>
+      <libsource lib="DVB_U" part="U_0064" description="DVB_SSOP:MSOP_16-1EP_3x4_P0.5, LT8610ABHMSE, REGULATOR, DC/DC BUCK STEP DOWN, 3.2V to 42Vcc, ADJ 970mV to 1Vout, 3.5A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1D9CB</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>L_0004</value>
+      <footprint>DVB_Inductors:L_2020-Vishay</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2050374.pdf?_ga=2.106835719.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">IHLP2020BZER4R7M01</field>
+        <field name="Field5">5A</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">4.7µH</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0004" description="DVB_Inductors:L_2020-Vishay, IHLP2020BZER4R7M01, 5A, COIL, 4.7µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0AF57</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>L_0004</value>
+      <footprint>DVB_Inductors:L_2020-Vishay</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2050374.pdf?_ga=2.106835719.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field1">IHLP2020BZER4R7M01</field>
+        <field name="Field2">L-2020</field>
+        <field name="Field3">Vishay</field>
+        <field name="Field4">4.7uH</field>
+        <field name="Field5">5A</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0004" description="DVB_Inductors:L_2020-Vishay, IHLP2020BZER4R7M01, 5A, COIL, 4.7µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF334EA</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C_0032</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0805</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">2.2uF</field>
+        <field name="Field2">C-0805</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0032" description="DVB_Capacitors_Ceramic:C_0805, CER, 2.2µF, 50V, X5R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF334F8</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C_0038</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1206</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-1206</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0038" description="DVB_Capacitors_Ceramic:C_1206, CER, 4.7µF, 50V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF33506</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C_0038</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1206</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-1206</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0038" description="DVB_Capacitors_Ceramic:C_1206, CER, 4.7µF, 50V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF33514</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>L_0004</value>
+      <footprint>DVB_Inductors:L_2020-Vishay</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2050374.pdf?_ga=2.106835719.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field1">IHLP2020BZER4R7M01</field>
+        <field name="Field2">L-2020</field>
+        <field name="Field3">Vishay</field>
+        <field name="Field4">4.7uH</field>
+        <field name="Field5">5A</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0004" description="DVB_Inductors:L_2020-Vishay, IHLP2020BZER4R7M01, 5A, COIL, 4.7µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF45B22</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C_0032</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0805</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">2.2uF</field>
+        <field name="Field2">C-0805</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0032" description="DVB_Capacitors_Ceramic:C_0805, CER, 2.2µF, 50V, X5R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF45B30</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C_0038</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1206</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-1206</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0038" description="DVB_Capacitors_Ceramic:C_1206, CER, 4.7µF, 50V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF45B3E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_0038</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1206</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-1206</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0038" description="DVB_Capacitors_Ceramic:C_1206, CER, 4.7µF, 50V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF45B4C</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>C_0071</value>
+      <footprint>DVB_Capacitors_Ceramic:C_2220</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2237835.pdf</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">10µF</field>
+        <field name="Field6">100V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0071" description="DVB_Capacitors_Ceramic:C_2220, CER, 10µF, 100V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0B7D19</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F1996</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F19A4</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>C_0039</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">16V</field>
+        <field name="Field4">C0G/NP0</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0039" description="DVB_Capacitors_Ceramic:C_0402, CER, 10pF, 16V, COG/NPO, 5%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F19B2</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>C_0012</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">220nF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0012" description="DVB_Capacitors_Ceramic:C_0603, CER, 220nF, 25V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F19C0</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0002" description="DVB_Resistors:R_0402, 1M, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F19CE</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F19EA</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">10V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F19FA</tstamp>
+    </comp>
+    <comp ref="L10">
+      <value>L_0004</value>
+      <footprint>DVB_Inductors:L_2020-Vishay</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2050374.pdf?_ga=2.106835719.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">IHLP2020BZER4R7M01</field>
+        <field name="Field5">5A</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">4.7µH</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0004" description="DVB_Inductors:L_2020-Vishay, IHLP2020BZER4R7M01, 5A, COIL, 4.7µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F1A21</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R_0128</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">174k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0128" description="DVB_Resistors:R_0402, 174k, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E133E08</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>R_0034</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">100k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0034" description="DVB_Resistors:R_0402, 100k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E134F6A</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R_0157</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="Field4">280k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0157" description="DVB_Resistors:R_0402, 280k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E13B6BC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_0158</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="Field4">147k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0158" description="DVB_Resistors:R_0402, 147k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E16C36A</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_0026</value>
+      <footprint>DVB_Diodes:D_SMA</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2238505.pdf?_ga=2.105419331.173902947.1520845255-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">B360A</field>
+        <field name="Field5">3A</field>
+        <field name="Field6">SCHOTTKY</field>
+        <field name="Field7">1-Chan</field>
+        <field name="Field8">60Vr</field>
+      </fields>
+      <libsource lib="DVB_D" part="D_0026" description="DVB_Diodes:D_SMA, B360A-13-F, 3A, SCHOTTKY, 60Vr, 1-Chan"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1945B5</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_0026</value>
+      <footprint>DVB_Diodes:D_SMA</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2238505.pdf?_ga=2.105419331.173902947.1520845255-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">B360A</field>
+        <field name="Field5">3A</field>
+        <field name="Field6">SCHOTTKY</field>
+        <field name="Field7">1-Chan</field>
+        <field name="Field8">60Vr</field>
+      </fields>
+      <libsource lib="DVB_D" part="D_0026" description="DVB_Diodes:D_SMA, B360A-13-F, 3A, SCHOTTKY, 60Vr, 1-Chan"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E194E08</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_0026</value>
+      <footprint>DVB_Diodes:D_SMA</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2238505.pdf?_ga=2.105419331.173902947.1520845255-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">B360A</field>
+        <field name="Field5">3A</field>
+        <field name="Field6">SCHOTTKY</field>
+        <field name="Field7">1-Chan</field>
+        <field name="Field8">60Vr</field>
+      </fields>
+      <libsource lib="DVB_D" part="D_0026" description="DVB_Diodes:D_SMA, B360A-13-F, 3A, SCHOTTKY, 60Vr, 1-Chan"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1955A7</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>L_0001</value>
+      <footprint>DVB_Inductors:L_0805</footprint>
+      <datasheet>http://www.farnell.com/datasheets/84904.pdf?_ga=2.13460403.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field1">MPZ2012S101A</field>
+        <field name="Field2">L-0805</field>
+        <field name="Field3">TDK</field>
+        <field name="Field4">100ohm 1Mhz</field>
+        <field name="Field5">4A</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0001" description="DVB_Inductors:L_0805, MPZ2012S101A, 4A, CHIP BEADS, 100ohm to 1Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF334BC</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>L_0001</value>
+      <footprint>DVB_Inductors:L_0805</footprint>
+      <datasheet>http://www.farnell.com/datasheets/84904.pdf?_ga=2.13460403.526238941.1497949497-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field1">MPZ2012S101A</field>
+        <field name="Field2">L-0805</field>
+        <field name="Field3">TDK</field>
+        <field name="Field4">100ohm 1Mhz</field>
+        <field name="Field5">4A</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0001" description="DVB_Inductors:L_0805, MPZ2012S101A, 4A, CHIP BEADS, 100ohm to 1Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF45AF4</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>15VIN-3A</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E235267</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>ON/OFF-4A_6B</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E235811</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>+7.5V-13_26_33_51A_54_104_6A</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E23CDA0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>TESTBAT-14</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E23DDFD</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>+4.9V-10_36_80_83_93</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E23E280</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>-4.9V</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E23F32C</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>+48V</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E243F19</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>ON/OFF-6A</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2840F4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_0159</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="Field4">118k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0159" description="DVB_Resistors:R_0402, 118k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2A9ADB</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0002" description="DVB_Resistors:R_0402, 1M, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2B15E9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0002" description="DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2BDBA0</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_0026</value>
+      <footprint>DVB_Diodes:D_SMA</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2238505.pdf?_ga=2.105419331.173902947.1520845255-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field4">B360A</field>
+        <field name="Field5">3A</field>
+        <field name="Field6">SCHOTTKY</field>
+        <field name="Field7">1-Chan</field>
+        <field name="Field8">60Vr</field>
+      </fields>
+      <libsource lib="DVB_D" part="D_0026" description="DVB_Diodes:D_SMA, B360A-13-F, 3A, SCHOTTKY, 60Vr, 1-Chan"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E31837D</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0002" description="DVB_Resistors:R_0402, 1M, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3193C7</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>U_0089</value>
+      <footprint>DVB_SSOP:MSOP_12-1EP_3x4_P0.65</footprint>
+      <datasheet>http://cds.linear.com/docs/en/datasheet/3652fe.pdf</datasheet>
+      <fields>
+        <field name="Field4">LT3652EMSE#PBF</field>
+        <field name="Field5">CHARGER</field>
+        <field name="Field6">MULTI-CHEM</field>
+        <field name="Field7">4.95V to 32Vcc</field>
+        <field name="Field8">2A</field>
+      </fields>
+      <libsource lib="DVB_U" part="U_0089" description="DVB_SSOP:MSOP_12-1EP_3x4_P0.65, LT3652EMSE#PBF, CHARGER, MULTI-CHEM, 4.95V to 32Vcc, 2A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB08692</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_0008</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">90.9k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0008" description="DVB_Resistors:R_0402, 90.9k, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E31EB0D</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>C_0037</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0037" description="DVB_Capacitors_Ceramic:C_0603, CER, 1µF, 25V, X5R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E33A9FD</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>C_0058</value>
+      <footprint>DVB_Capacitors_Tantalum:CP_EIA-7343-31</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">POL</field>
+        <field name="Field5">100µF</field>
+        <field name="Field6">20V</field>
+        <field name="Field7">TANTALE</field>
+        <field name="Field8">20%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0058" description="DVB_Capacitors_Tantalum:CP_EIA-7343-31, POL, 100µF, 20V, TANTALE, 20%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E347E93</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R_0112</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">30.1k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0112" description="DVB_Resistors:R_0402, 30.1k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E36E2B5</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>25K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical_Hole</footprint>
+      <datasheet>PT10LV10-253A2020-PM-S</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E365F9D</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R_0020</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">10k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0020" description="DVB_Resistors:R_0402, 10k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB88E72</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>TESTBAT-14</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBAD2E6</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>GND-7_21_22_3B_28_51B_53_76</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2338F8</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>GND</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9189A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>U_0064</value>
+      <footprint>DVB_SSOP:MSOP_16-1EP_3x4_P0.5</footprint>
+      <datasheet>http://cds.linear.com/docs/en/datasheet/8610abfa.pdf</datasheet>
+      <fields>
+        <field name="Field1">LT8610ABHMSE</field>
+        <field name="Field10">200Khz to 2.2Mhz</field>
+        <field name="Field11">-40° to 150°</field>
+        <field name="Field2">MSOP_16-EP_3x4_P0.5</field>
+        <field name="Field3">Linear Technology</field>
+        <field name="Field4">REGULATOR</field>
+        <field name="Field5">DC/DC STEP DOWN / EN</field>
+        <field name="Field6">42Vin</field>
+        <field name="Field7">ADJ 0.97V to Vin</field>
+        <field name="Field8">3.5A</field>
+        <field name="Field9">2.5uA</field>
+      </fields>
+      <libsource lib="DVB_U" part="U_0064" description="DVB_SSOP:MSOP_16-1EP_3x4_P0.5, LT8610ABHMSE, REGULATOR, DC/DC BUCK STEP DOWN, 3.2V to 42Vcc, ADJ 970mV to 1Vout, 3.5A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5981986E</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>ON/OFF-48V</value>
+      <footprint>DVB_Connectors:Solder_Pad_8x5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC53A0</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0002" description="DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC86F4</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>R_0034</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">100k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0034" description="DVB_Resistors:R_0402, 100k, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBD3D2B</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>BATT</value>
+      <footprint>Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE4300F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0002">
+      <description>DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0002</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">100nF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0003">
+      <description>DVB_Capacitors_Ceramic:C_0603, CER, 10µF, 25V, X5R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0003</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0603</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">10µF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0012">
+      <description>DVB_Capacitors_Ceramic:C_0603, CER, 220nF, 25V, X7R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0012</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0603</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">220nF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0032">
+      <description>DVB_Capacitors_Ceramic:C_0805, CER, 2.2µF, 50V, X5R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0032</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0805</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">2.2µF</field>
+        <field name="Field6">50V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0037">
+      <description>DVB_Capacitors_Ceramic:C_0603, CER, 1µF, 25V, X5R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0037</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0603</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">1µF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0038">
+      <description>DVB_Capacitors_Ceramic:C_1206, CER, 4.7µF, 50V, X7R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0038</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_1206</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">4.7µF</field>
+        <field name="Field6">50V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0039">
+      <description>DVB_Capacitors_Ceramic:C_0402, CER, 10pF, 16V, COG/NPO, 5%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0039</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">10pF</field>
+        <field name="Field6">16V</field>
+        <field name="Field7">COG/NPO</field>
+        <field name="Field8">5%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0040">
+      <description>DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0040</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_1210</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">47µF</field>
+        <field name="Field6">10V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0041">
+      <description>DVB_Capacitors_Ceramic:C_1206, CER, 10µF, 50V, X5R, 20%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0041</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_1206</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">10µF</field>
+        <field name="Field6">50V</field>
+        <field name="Field7">X5R</field>
+        <field name="Field8">20%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0056">
+      <description>DVB_Capacitors_Ceramic:C_0805, CER, 1µF, 50V, X7R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0056</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0805</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">1µF</field>
+        <field name="Field6">50V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0057">
+      <description>DVB_Capacitors_Ceramic:C_0603, CER, 680nF, 25V, X7R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0057</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0603</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">680nF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0058">
+      <description>DVB_Capacitors_Tantalum:CP_EIA-7343-31, POL, 100µF, 20V, TANTALE, 20%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0058</field>
+        <field name="Footprint">DVB_Capacitors_Tantalum:CP_EIA-7343-31</field>
+        <field name="Field4">POL</field>
+        <field name="Field5">100µF</field>
+        <field name="Field6">20V</field>
+        <field name="Field7">TANTALE</field>
+        <field name="Field8">20%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0071">
+      <description>DVB_Capacitors_Ceramic:C_2220, CER, 10µF, 100V, X7R, 10%</description>
+      <docs>http://www.farnell.com/datasheets/2237835.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0071</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_2220</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">10µF</field>
+        <field name="Field6">100V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_D" part="D_0026">
+      <description>DVB_Diodes:D_SMA, B360A-13-F, 3A, SCHOTTKY, 60Vr, 1-Chan</description>
+      <docs>http://www.farnell.com/datasheets/2238505.pdf?_ga=2.105419331.173902947.1520845255-421346633.1483631847</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_0026</field>
+        <field name="Footprint">DVB_Diodes:D_SMA</field>
+        <field name="Field4">B360A-13-F</field>
+        <field name="Field5">3A</field>
+        <field name="Field6">SCHOTTKY</field>
+        <field name="Field7">1-Chan</field>
+        <field name="Field8">60Vr</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_L" part="L_0001">
+      <description>DVB_Inductors:L_0805, MPZ2012S101A, 4A, CHIP BEADS, 100ohm to 1Mhz</description>
+      <docs>http://www.farnell.com/datasheets/84904.pdf?_ga=2.13460403.526238941.1497949497-421346633.1483631847</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0001</field>
+        <field name="Footprint">DVB_Inductors:L_0805</field>
+        <field name="Field4">MPZ2012S101A</field>
+        <field name="Field5">4A</field>
+        <field name="Field6">CHIP BEADS</field>
+        <field name="Field7">100ohm to 1Mhz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_L" part="L_0004">
+      <description>DVB_Inductors:L_2020-Vishay, IHLP2020BZER4R7M01, 5A, COIL, 4.7µH</description>
+      <docs>http://www.farnell.com/datasheets/2050374.pdf?_ga=2.106835719.526238941.1497949497-421346633.1483631847</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0004</field>
+        <field name="Footprint">DVB_Inductors:L_2020-Vishay</field>
+        <field name="Field4">IHLP2020BZER4R7M01</field>
+        <field name="Field5">5A</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">4.7µH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_L" part="L_0015">
+      <description>DVB_Inductors:L_7050-Wurth, 74437349470, 2.45A, COIL, 47µH</description>
+      <docs>https://katalog.we-online.fr/pbs/datasheet/74437349470.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0015</field>
+        <field name="Footprint">DVB_Inductors:L_7050-Wurth</field>
+        <field name="Field4">74437349470</field>
+        <field name="Field5">2.45A</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">47µH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0002">
+      <description>DVB_Resistors:R_0402, 1M, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0002</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">1M</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0008">
+      <description>DVB_Resistors:R_0402, 90.9k, 1%, 63mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0008</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">90.9k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0020">
+      <description>DVB_Resistors:R_0402, 10k, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0020</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">10k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0034">
+      <description>DVB_Resistors:R_0402, 100k, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0034</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">100k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0099">
+      <description>DVB_Resistors:R_1206, 50m, 1%, 1W</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0099</field>
+        <field name="Footprint">DVB_Resistors:R_1206</field>
+        <field name="Field4">50m</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">1W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0112">
+      <description>DVB_Resistors:R_0402, 30.1k, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0112</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">30.1k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0118">
+      <description>DVB_Resistors:R_0402, 1.5k, 1%, 62.5mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0118</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">1.5k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">62.5mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0128">
+      <description>DVB_Resistors:R_0402, 174k, 1%, 63mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0128</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">174k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0154">
+      <description>DVB_Resistors:R_0402, 56k, 1%, 63mW</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0154</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">56k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0155">
+      <description>DVB_Resistors:R_0402, 249k, 1%, 100mW</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0155</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">249k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0156">
+      <description>DVB_Resistors:R_0402, 52.3k, 1%, 100mW</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0156</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">52.3k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0157">
+      <description>DVB_Resistors:R_0402, 280k, 1%, 100mW</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0157</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">280k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0158">
+      <description>DVB_Resistors:R_0402, 147k, 1%, 100mW</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0158</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">147k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0159">
+      <description>DVB_Resistors:R_0402, 118k, 1%, 100mW</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0159</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">118k</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0064">
+      <description>DVB_SSOP:MSOP_16-1EP_3x4_P0.5, LT8610ABHMSE, REGULATOR, DC/DC BUCK STEP DOWN, 3.2V to 42Vcc, ADJ 970mV to 1Vout, 3.5A</description>
+      <docs>http://cds.linear.com/docs/en/datasheet/8610abfa.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0064</field>
+        <field name="Footprint">DVB_SSOP:MSOP_16-1EP_3x4_P0.5</field>
+        <field name="Field4">LT8610ABHMSE</field>
+        <field name="Field5">REGULATOR</field>
+        <field name="Field6">DC/DC BUCK STEP DOWN</field>
+        <field name="Field7">3.2V to 42Vcc</field>
+        <field name="Field8">ADJ 970mV to 1Vout</field>
+        <field name="Field9">3.5A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SYNC" type="input"/>
+        <pin num="2" name="TR/SS" type="input"/>
+        <pin num="3" name="RT" type="input"/>
+        <pin num="4" name="EN/UV" type="input"/>
+        <pin num="5" name="Vin" type="power_in"/>
+        <pin num="6" name="Vin" type="power_in"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="SW" type="input"/>
+        <pin num="10" name="SW" type="input"/>
+        <pin num="11" name="SW" type="input"/>
+        <pin num="12" name="BST" type="input"/>
+        <pin num="13" name="INTVcc" type="input"/>
+        <pin num="14" name="BIAS" type="input"/>
+        <pin num="15" name="PG" type="input"/>
+        <pin num="16" name="FB" type="input"/>
+        <pin num="17" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0089">
+      <description>DVB_SSOP:MSOP_12-1EP_3x4_P0.65, LT3652EMSE#PBF, CHARGER, MULTI-CHEM, 4.95V to 32Vcc, 2A</description>
+      <docs>http://cds.linear.com/docs/en/datasheet/3652fe.pdf</docs>
+      <footprints>
+        <fp>MSOP-12_MSE</fp>
+        <fp>MSOP-12_MSE-M</fp>
+        <fp>MSOP-12_MSE-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0089</field>
+        <field name="Footprint">DVB_SSOP:MSOP_12-1EP_3x4_P0.65</field>
+        <field name="Field4">LT3652EMSE#PBF</field>
+        <field name="Field5">CHARGER</field>
+        <field name="Field6">MULTI-CHEM</field>
+        <field name="Field7">4.95V to 32Vcc</field>
+        <field name="Field8">2A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="VIN_REG" type="passive"/>
+        <pin num="3" name="*SHDN" type="BiDi"/>
+        <pin num="4" name="*CHRG" type="openCol"/>
+        <pin num="5" name="*FAULT" type="openCol"/>
+        <pin num="6" name="TIMER" type="BiDi"/>
+        <pin num="7" name="VFB" type="BiDi"/>
+        <pin num="8" name="NTC" type="BiDi"/>
+        <pin num="9" name="BAT" type="power_in"/>
+        <pin num="10" name="SENSE" type="BiDi"/>
+        <pin num="11" name="BOOST" type="BiDi"/>
+        <pin num="12" name="SW" type="BiDi"/>
+        <pin num="13" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0126">
+      <description>DVB_SOIC:SOIC_8, XL6007E1, REGULATOR, DC/DC BOOST / EN, 3.6V to 24Vcc, 60Vout, 2A</description>
+      <docs>http://www.xlsemi.com/datasheet/XL6007%20datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0126</field>
+        <field name="Footprint">DVB_SOIC:SOIC_8</field>
+        <field name="Field4">XL6007E1</field>
+        <field name="Field5">REGULATOR</field>
+        <field name="Field6">DC/DC BOOST / EN</field>
+        <field name="Field7">3.6V to 24Vcc</field>
+        <field name="Field8">60Vout</field>
+        <field name="Field9">2A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~SDHN" type="input"/>
+        <pin num="2" name="VIN" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="SW" type="input"/>
+        <pin num="6" name="SW" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/mnt/data/Documents/Devisubox/hardware/kicad/lib/Lib_Kicad/kicad-symbols/Connector_Generic.lib</uri>
+    </library>
+    <library logical="DVB_C">
+      <uri>/mnt/data/Documents/Devisubox/hardware/kicad/lib/Lib_Kicount/DVB_lib/DVB_C.lib</uri>
+    </library>
+    <library logical="DVB_D">
+      <uri>/mnt/data/Documents/Devisubox/hardware/kicad/lib/Lib_Kicount/DVB_lib/DVB_D.lib</uri>
+    </library>
+    <library logical="DVB_L">
+      <uri>/mnt/data/Documents/Devisubox/hardware/kicad/lib/Lib_Kicount/DVB_lib/DVB_L.lib</uri>
+    </library>
+    <library logical="DVB_R">
+      <uri>/mnt/data/Documents/Devisubox/hardware/kicad/lib/Lib_Kicount/DVB_lib/DVB_R.lib</uri>
+    </library>
+    <library logical="DVB_U">
+      <uri>/mnt/data/Documents/Devisubox/hardware/kicad/lib/Lib_Kicount/DVB_lib/DVB_U.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/mnt/data/Documents/Devisubox/hardware/kicad/lib/Lib_Kicad/kicad-symbols/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U4" pin="8"/>
+      <node ref="C42" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C46" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U5" pin="13"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="L9" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C33" pin="2"/>
+      <node ref="U3" pin="17"/>
+      <node ref="C36" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="3" name="Net-(R17-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="4" name="+7.5V">
+      <node ref="U2" pin="4"/>
+      <node ref="C36" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="L10" pin="2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U3" pin="14"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C26-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="16"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C26" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="7" name="VDD">
+      <node ref="J7" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="L7" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="8" name="+BATT">
+      <node ref="R18" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="K1" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="9" name="+15">
+      <node ref="D3" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="C40" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C6-Pad1)">
+      <node ref="L2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="13" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="14" name="Net-(C24-Pad2)">
+      <node ref="U1" pin="16"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="16" name="Net-(R4-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C9-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C9" pin="1"/>
+      <node ref="L5" pin="2"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="19" name="Net-(C7-Pad1)">
+      <node ref="L6" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="20" name="/PW_EN">
+      <node ref="R1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(R21-Pad1)">
+      <node ref="U5" pin="4"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="23" name="/CHG_LED">
+      <node ref="J12" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R16-Pad2)">
+      <node ref="RV1" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="26" name="Net-(C20-Pad2)">
+      <node ref="U1" pin="11"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="L8" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="27" name="/EN_48V">
+      <node ref="J9" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C46" pin="2"/>
+    </net>
+    <net code="28" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="29" name="Net-(C20-Pad1)">
+      <node ref="U1" pin="12"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="30" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="31" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C8-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="34" name="+48V">
+      <node ref="J6" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="L11" pin="2"/>
+    </net>
+    <net code="35" name="+4.9V">
+      <node ref="C31" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="C24" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="L8" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R1-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="37" name="-4.9V">
+      <node ref="C32" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U2" pin="17"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="38" name="Net-(C42-Pad1)">
+      <node ref="U5" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C41-Pad1)">
+      <node ref="U5" pin="6"/>
+      <node ref="C41" pin="1"/>
+    </net>
+    <net code="40" name="Net-(R14-Pad1)">
+      <node ref="U5" pin="3"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="41" name="Net-(C43-Pad2)">
+      <node ref="U5" pin="11"/>
+      <node ref="C43" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C25-Pad2)">
+      <node ref="C25" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="43" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="44" name="Net-(C21-Pad2)">
+      <node ref="U2" pin="9"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="11"/>
+      <node ref="L9" pin="1"/>
+    </net>
+    <net code="45" name="Net-(C5-Pad1)">
+      <node ref="L4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D1-Pad2)">
+      <node ref="L7" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="6"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="47" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="48" name="Net-(C43-Pad1)">
+      <node ref="C43" pin="1"/>
+      <node ref="L12" pin="1"/>
+      <node ref="U5" pin="12"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="49" name="Net-(L12-Pad2)">
+      <node ref="U5" pin="10"/>
+      <node ref="R18" pin="2"/>
+      <node ref="L12" pin="2"/>
+    </net>
+    <net code="50" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="51" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="52" name="Net-(R5-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="53" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="54" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="L6" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="56" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="57" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="58" name="Net-(C19-Pad2)">
+      <node ref="D1" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="L11" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C22-Pad2)">
+      <node ref="C22" pin="2"/>
+      <node ref="L10" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="10"/>
+    </net>
+  </nets>
+</export>

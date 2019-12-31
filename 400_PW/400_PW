@@ -1,0 +1,55 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/zhonx/Bureau/UHER/400_PW/400_PW.sch</h1>
+    <p>dim. 29 déc. 2019 18:42:47 CET</p>
+    <p>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</p>
+    <p><b>Component Count:</b>105</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2, C3, C5, C6, C7, C14</td><td>7</td><td>C_0038</td><td>DVB_C:C_0038</td><td>DVB_Capacitors_Ceramic:C_1206</td><td>DVB_Capacitors_Ceramic:C_1206, CER, 4.7µF, 50V, X7R, 10%</td><td></td></tr>
+    <tr><td>C4, C11, C12, C13, C46</td><td>5</td><td>C_0002</td><td>DVB_C:C_0002</td><td>DVB_Capacitors_Ceramic:C_0402</td><td>DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%</td><td></td></tr>
+    <tr><td>C8, C9, C10, C18</td><td>4</td><td>C_0032</td><td>DVB_C:C_0032</td><td>DVB_Capacitors_Ceramic:C_0805</td><td>DVB_Capacitors_Ceramic:C_0805, CER, 2.2µF, 50V, X5R, 10%</td><td></td></tr>
+    <tr><td>C15, C16, C17, C40</td><td>4</td><td>C_0037</td><td>DVB_C:C_0037</td><td>DVB_Capacitors_Ceramic:C_0603</td><td>DVB_Capacitors_Ceramic:C_0603, CER, 1µF, 25V, X5R, 10%</td><td></td></tr>
+    <tr><td>C19, C23, C30</td><td>3</td><td>C_0071</td><td>DVB_C:C_0071</td><td>DVB_Capacitors_Ceramic:C_2220</td><td>DVB_Capacitors_Ceramic:C_2220, CER, 10µF, 100V, X7R, 10%</td><td></td></tr>
+    <tr><td>C20, C21, C22</td><td>3</td><td>C_0012</td><td>DVB_C:C_0012</td><td>DVB_Capacitors_Ceramic:C_0603</td><td>DVB_Capacitors_Ceramic:C_0603, CER, 220nF, 25V, X7R, 10%</td><td></td></tr>
+    <tr><td>C24, C25, C26</td><td>3</td><td>C_0039</td><td>DVB_C:C_0039</td><td>DVB_Capacitors_Ceramic:C_0402</td><td>DVB_Capacitors_Ceramic:C_0402, CER, 10pF, 16V, COG/NPO, 5%</td><td></td></tr>
+    <tr><td>C27, C28, C29, C31, C32, C33, C34, C35, C36, C37, C38, C39</td><td>12</td><td>C_0040</td><td>DVB_C:C_0040</td><td>DVB_Capacitors_Ceramic:C_1210</td><td>DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%</td><td></td></tr>
+    <tr><td>C41</td><td>1</td><td>C_0057</td><td>DVB_C:C_0057</td><td>DVB_Capacitors_Ceramic:C_0603</td><td>DVB_Capacitors_Ceramic:C_0603, CER, 680nF, 25V, X7R, 10%</td><td></td></tr>
+    <tr><td>C42</td><td>1</td><td>C_0041</td><td>DVB_C:C_0041</td><td>DVB_Capacitors_Ceramic:C_1206</td><td>DVB_Capacitors_Ceramic:C_1206, CER, 10µF, 50V, X5R, 20%</td><td></td></tr>
+    <tr><td>C43</td><td>1</td><td>C_0056</td><td>DVB_C:C_0056</td><td>DVB_Capacitors_Ceramic:C_0805</td><td>DVB_Capacitors_Ceramic:C_0805, CER, 1µF, 50V, X7R, 10%</td><td></td></tr>
+    <tr><td>C44</td><td>1</td><td>C_0003</td><td>DVB_C:C_0003</td><td>DVB_Capacitors_Ceramic:C_0603</td><td>DVB_Capacitors_Ceramic:C_0603, CER, 10µF, 25V, X5R, 10%</td><td></td></tr>
+    <tr><td>C45</td><td>1</td><td>C_0058</td><td>DVB_C:C_0058</td><td>DVB_Capacitors_Tantalum:CP_EIA-7343-31</td><td>DVB_Capacitors_Tantalum:CP_EIA-7343-31, POL, 100µF, 20V, TANTALE, 20%</td><td></td></tr>
+    <tr><td>D1, D2, D3, D4, D5, D6</td><td>6</td><td>D_0026</td><td>DVB_D:D_0026</td><td>DVB_Diodes:D_SMA</td><td>DVB_Diodes:D_SMA, B360A-13-F, 3A, SCHOTTKY, 60Vr, 1-Chan</td><td></td></tr>
+    <tr><td>K1</td><td>1</td><td>BATT</td><td>Connector_Generic:Conn_01x02</td><td>Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>L1, L2, L3, L11</td><td>4</td><td>L_0001</td><td>DVB_L:L_0001</td><td>DVB_Inductors:L_0805</td><td>DVB_Inductors:L_0805, MPZ2012S101A, 4A, CHIP BEADS, 100ohm to 1Mhz</td><td></td></tr>
+    <tr><td>L4, L5, L6, L8, L9, L10, L12</td><td>7</td><td>L_0004</td><td>DVB_L:L_0004</td><td>DVB_Inductors:L_2020-Vishay</td><td>DVB_Inductors:L_2020-Vishay, IHLP2020BZER4R7M01, 5A, COIL, 4.7µH</td><td></td></tr>
+    <tr><td>L7</td><td>1</td><td>L_0015</td><td>DVB_L:L_0015</td><td>DVB_Inductors:L_7050-Wurth</td><td>DVB_Inductors:L_7050-Wurth, 74437349470, 2.45A, COIL, 47µH</td><td></td></tr>
+    <tr><td>R1, R8, R10, R12, R14</td><td>5</td><td>R_0002</td><td>DVB_R:R_0002</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 1M, 1%, 100mW</td><td></td></tr>
+    <tr><td>R2</td><td>1</td><td>R_0159</td><td>DVB_R:R_0159</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 118k, 1%, 100mW</td><td></td></tr>
+    <tr><td>R3, R4, R5</td><td>3</td><td>R_0156</td><td>DVB_R:R_0156</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 52.3k, 1%, 100mW</td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>R_0154</td><td>DVB_R:R_0154</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 56k, 1%, 63mW</td><td></td></tr>
+    <tr><td>R7</td><td>1</td><td>R_0118</td><td>DVB_R:R_0118</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 1.5k, 1%, 62.5mW</td><td></td></tr>
+    <tr><td>R9, R11</td><td>2</td><td>R_0155</td><td>DVB_R:R_0155</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 249k, 1%, 100mW</td><td></td></tr>
+    <tr><td>R13</td><td>1</td><td>R_0158</td><td>DVB_R:R_0158</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 147k, 1%, 100mW</td><td></td></tr>
+    <tr><td>R15</td><td>1</td><td>R_0008</td><td>DVB_R:R_0008</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 90.9k, 1%, 63mW</td><td></td></tr>
+    <tr><td>R16</td><td>1</td><td>R_0112</td><td>DVB_R:R_0112</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 30.1k, 1%, 100mW</td><td></td></tr>
+    <tr><td>R17</td><td>1</td><td>R_0128</td><td>DVB_R:R_0128</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 174k, 1%, 63mW</td><td></td></tr>
+    <tr><td>R18</td><td>1</td><td>R_0099</td><td>DVB_R:R_0099</td><td>DVB_Resistors:R_1206</td><td>DVB_Resistors:R_1206, 50m, 1%, 1W</td><td></td></tr>
+    <tr><td>R19</td><td>1</td><td>R_0157</td><td>DVB_R:R_0157</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 280k, 1%, 100mW</td><td></td></tr>
+    <tr><td>R20, R22</td><td>2</td><td>R_0034</td><td>DVB_R:R_0034</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 100k, 1%, 100mW</td><td></td></tr>
+    <tr><td>R21</td><td>1</td><td>R_0020</td><td>DVB_R:R_0020</td><td>DVB_Resistors:R_0402</td><td>DVB_Resistors:R_0402, 10k, 1%, 100mW</td><td></td></tr>
+    <tr><td>RV1</td><td>1</td><td>25K</td><td>Device:R_POT</td><td>Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical_Hole</td><td>Potentiometer</td><td></td></tr>
+    <tr><td>U1, U2, U3</td><td>3</td><td>U_0064</td><td>DVB_U:U_0064</td><td>DVB_SSOP:MSOP_16-1EP_3x4_P0.5</td><td>DVB_SSOP:MSOP_16-1EP_3x4_P0.5, LT8610ABHMSE, REGULATOR, DC/DC BUCK STEP DOWN, 3.2V to 42Vcc, ADJ 970mV to 1Vout, 3.5A</td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>U_0126</td><td>DVB_U:U_0126</td><td>DVB_SOIC:SOIC_8</td><td>DVB_SOIC:SOIC_8, XL6007E1, REGULATOR, DC/DC BOOST / EN, 3.6V to 24Vcc, 60Vout, 2A</td><td></td></tr>
+    <tr><td>U5</td><td>1</td><td>U_0089</td><td>DVB_U:U_0089</td><td>DVB_SSOP:MSOP_12-1EP_3x4_P0.65</td><td>DVB_SSOP:MSOP_12-1EP_3x4_P0.65, LT3652EMSE#PBF, CHARGER, MULTI-CHEM, 4.95V to 32Vcc, 2A</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

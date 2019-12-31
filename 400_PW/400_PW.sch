@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:400_PW-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2846,4 +2845,6 @@ $EndComp
 Connection ~ 9125 3925
 Connection ~ 9125 4025
 NoConn ~ 7725 2475
+Text Notes 10900 1375 0    50   ~ 0
+ERREUR!
 $EndSCHEMATC
